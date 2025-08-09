@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/ logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1> What <span> the MJ</span><br> (Micheal Jordan)</h1>
+        </div>
+    </div>
+</div>
+<!-----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Mj</h1>
+                <p>Michael Jordan, often considered the greatest basketball player of all time, was born on February 17, 1963, in Brooklyn, New York. He played 15 seasons in the NBA, primarily with the Chicago Bulls, leading them to six championships and earning six Finals MVP awards. Known for his scoring ability, defensive skills, and unmatched competitiveness, Jordan became a global icon and helped popularize basketball worldwide. Beyond the court, he has succeeded as a businessman and owner of the Charlotte Hornets. His legacy continues to inspire athletes and fans across generations.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('archievements')">Archievements</p>
+                    <p class="tab-links"onclick="opentab('livingstandard')">Living standard</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Position</span><br>Shooting Guard</li>
+                        <li><span>NBA Titles</span><br>6 Championships</li>
+                        <li><span>MVP Awards</span><br>5 Times</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="archivements">
+                    <ul>
+                        <li><span>Scoring Titles</span><br>10 Times</li>
+                        <li><span>Olympic Gold</span><br>2 Medals</li>
+                        <li><span>Hall of Fame</span><br>Inducted in 2009</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="livingstandard">
+                    <ul>
+                       <li><span>Skills</span><br>Scoring, Defense, Leadership</li>
+                       <li><span>Achievements</span><br>6 NBA Championships, 5 MVP Awards</li>
+                       <li><span>Living Standard</span><br>High-profile, Successful Businessman</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablinks of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+        }
+    }
+
+</script>
+
+</body>
+</html>

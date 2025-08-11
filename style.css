@@ -146,3 +146,39 @@ nav ul li a:hover::after{
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+i.fa-solid {
+    color: white;
+}
+.Why-MJ-Is-The-GOAT div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.Why-MJ-Is-The-GOAT div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.Why-MJ-Is-The-GOAT div h2{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
+.Why-MJ-Is-The-GOAT div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.Why-MJ-Is-The-GOAT div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+/*-----------------portfolio------------------*/
+#portfolio{
+    padding: 50px 0;
+}

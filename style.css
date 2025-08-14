@@ -260,6 +260,8 @@ i.fa-solid {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s, color 0.5s;
+    transition: background 0.5s;
 }
-.btn:hover
+.btn:hover{
+    background: #ff004f;
+}

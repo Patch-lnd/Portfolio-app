@@ -279,8 +279,30 @@ i.fa-solid {
     margin-top: 30px;
 }
 .social-icons a{
-    color: #fff;
+    color: #ababab;
     font-size: 30px;
-    margin-right: 20px;
-    transition: color 0.5s;
+    margin-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.see-PNGALL {
+   font-size: 3px; 
+    font-weight: bold; 
+    color: #fff; 
+}
+.contact-left {
+    font-size: 20px; 
+    color:#6e6467;
+}
+.social-icons a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
 }
